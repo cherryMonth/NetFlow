@@ -8,17 +8,29 @@
 
 ## 数据库表设计
 id: primary key
+
 name: 监听器唯一标示
+
 create time: 创建时间
+
 update time: 更新时间
+
 chain: 进出链
+
 interface: 网卡
+
 des_ip: 目标ip
+
 source_ip: 原始ip
+
 des_port: 目标port
+
 source_port: 原始port
+
 target: 数据包行为
+
 cmd: 执行的命令
+
 rule_num: 在规则中的rule_num
 
 ## 获取监听器 
