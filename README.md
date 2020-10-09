@@ -78,6 +78,15 @@ iptables -nvx -L
 iptables -Z INPUT/OUTPUT ${id}
 ```
 
+# 使用截图
+
+## 获取规则所位于的行号
+
+![](images/获取端口endpoint行号.PNG)
+
+## 根据规则链和行号获取endpoint的数据
+
+![](images/获取端口信息.PNG)
 
 
 
